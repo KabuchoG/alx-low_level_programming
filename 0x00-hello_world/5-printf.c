@@ -1,10 +1,9 @@
-/**
- * main- entry point
- *
- * return: Always returns 0
- */
-
 #include <stdio.h>
+/**
+ * main - entry
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	printf("with proper grammer, but the outcome is a piece of art,\n");
