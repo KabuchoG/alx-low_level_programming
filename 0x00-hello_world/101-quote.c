@@ -1,7 +1,7 @@
 /**
- * main -the entry point
+ * main - entry point
  *
- * print a string of characters using write
+ * Return: Always 0 (success)
  */
 #include <stdio.h>
 #include <unistd.h>
