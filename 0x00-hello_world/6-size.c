@@ -1,7 +1,7 @@
 /**
  * main -entry point
  *
- * print the varios sizes of types  using the sizeof() command
+ * Return: Always 0 (success)
  */
 #include <stdio.h>
 int main(void)
