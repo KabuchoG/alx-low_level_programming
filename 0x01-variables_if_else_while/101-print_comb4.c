@@ -10,4 +10,5 @@ int main(void)
 	int two;
 	int three;
 
-	for (one = two + 1;)
+	for (one = two + 1:wq
+;)
