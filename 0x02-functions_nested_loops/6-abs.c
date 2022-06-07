@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _abs : determines the absolute value of a number
- * @n is an integer
+ * _abs - determines the absolute value of a number
+ * @n: n is an integer
  *
- * Return: returns a value integer
+ * Return: integer
  */
 int _abs(int n)
 {	
