@@ -4,10 +4,9 @@
  *
  * Return: returns a value int
  */
-int _abs(int a)
+int _abs(int absolutval)
 {
 	int n;
-	int absolutval;
 	int begin = 0;
 
 	if (n > 0)
