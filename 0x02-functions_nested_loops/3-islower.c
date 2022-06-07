@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _islower - retunrs 1 when c is lowercase else 0
- *
- * int c the variable
+ * @c: the variable
  *
  * Return: 1  when lower case and 0 othewise
  */
