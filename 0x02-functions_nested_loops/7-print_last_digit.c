@@ -6,7 +6,7 @@
  */
 int print_last_digit(int lastd)
 {
-	int n;
+	int n = 0;
 
 	lastd = n % 10;
 	_putchar(lastd);
