@@ -7,18 +7,19 @@
 int _abs(int absolutval)
 {
 	int n = 0;
-
+	
+	absolutval = 0;
 	if (n > 0)
 	{
-	absolutval == (0 + n);
+	absolutval = (0 + n);
 	}
 	else if (n < 0)
 	{
-	absolutval == (0 - n);
+	absolutval = (0 - n);
 	}
 	else
 	{
-	absolutval == 0;
+	absolutval = 0;
 	}
 	return (0);
 }
