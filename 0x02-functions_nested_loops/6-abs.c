@@ -6,19 +6,19 @@
  */
 int _abs(int absolutval)
 {
-	int n;
-	int begin = 0;
+	int n = 0;
 
 	if (n > 0)
 	{
-	absolutval = (begin + n);
+	absolutval = (0 + n);
 	}
 	else if (n < 0)
 	{
-	absolutval = (begin - n);
+	absolutval = (0 - n);
 	}
 	else
 	{
 	absolutval = 0;
 	}
+	return (0);
 }
