@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * print_last_digit -prints the last digit of a number
- *@n numbers
- * Return; sucess lastd
+ * @n: is an interger
+ * Description: prints last digit
+ * Return: integer
  */
 int print_last_digit(int n)
 {
