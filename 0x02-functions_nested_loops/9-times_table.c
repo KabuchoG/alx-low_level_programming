@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void time_table(void)
+void times_table(void)
 {
 int a, b, prod, tens, ones;
 
