@@ -14,7 +14,7 @@ int main(void)
 	sumtotal = 0;
 	for (i = 0; i < 1024; ++i)
 	{
-	if ((i % 3 ) == 0)
+	if ((i % 3) == 0)
 	{
 	sum3 = sum3 + i;
 	}
