@@ -7,15 +7,16 @@
 int main(void)
 {
 	unsigned long int i, a, b, a1, a2, b1, b2;
+
 	a = 1;
 	b = 2;
 	printf("%lu", a);
 	for (i = 1; i < 91; i++)
-			{
-			printf(", %lu", b);
-			b = b + a;
-			a = b - a;
-			}
+	{
+	printf(", %lu", b);
+	b = b + a;
+	a = b - a;
+	}
 	a1 = a / 1000000000;
 	a2 = a % 1000000000;
 	b1 = b / 1000000000;
@@ -31,5 +32,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-
 }
