@@ -24,7 +24,7 @@ _putchar('0');
 else if (prod < 10)
 {
 _putchar(',');
-_putcahr(' ');
+_putchar(' ');
 _putchar(' ');
 _putchar(ones + '0');
 }
