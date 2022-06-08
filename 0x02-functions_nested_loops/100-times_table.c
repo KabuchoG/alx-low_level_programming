@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_time_table - prints the times table
+ * print_times_table - prints the times table
  * @n: integer foe times table
  *
  * Description: prints the times tabble
@@ -20,7 +20,7 @@ void print_times_table(int n)
 	prod = i * j;
 	if (j == 0)
 	_putchar('0');
-	else if (prod <10)
+	else if (prod < 10)
 	{
 	_putchar(',');
 	_putchar(' ');
@@ -33,7 +33,7 @@ void print_times_table(int n)
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
-	_putchar((prod / 10) % 10 + '0' );
+	_putchar((prod / 10) % 10 + '0');
 	_putchar(prod % 10 + '0');
 	}
 	else if (prod > 99 && prod < 1000)
