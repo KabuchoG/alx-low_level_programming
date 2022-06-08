@@ -31,7 +31,7 @@ _putchar(ones + '0');
 else
 {
 _putchar(',');
-_putcahr(' ');
+_putchar(' ');
 _putchar(tens + '0');
 _putchar(ones + '0');
 }
