@@ -2,6 +2,7 @@
 /**
  * more_numbers: prnts numbers 1 to 14
  * Description: iterates 10 times
+ * Return: void
  */
 void more_numbers(void)
 {
@@ -9,7 +10,7 @@ void more_numbers(void)
 
 	for (i = 1; i <= 10; i ++)
 	{
-	for (j = 0; j <= 14; j++)
+	for (j = 0; j < 15; j++)
 	{
 	if (j >= 10)
 	_putchar('1');
