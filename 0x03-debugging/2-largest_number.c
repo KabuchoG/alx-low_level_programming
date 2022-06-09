@@ -3,7 +3,7 @@
  * largest_number - returns the largets of the three numbers
  * @a: first number
  * @b: the second number
- * @: the third integer
+ * @c: the third integer
  * Return: largest number
  */
 int largest_number(int a, int b, int c)
