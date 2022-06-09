@@ -1,23 +1,20 @@
 #include "main.h"
 
 /**
- * more_numbers - prints more numbers above 10
+ * print_most_numbers - prints numbers below 10 apart from 2 and 4
  *
  * Return: void
  */
 
-void more_numbers(void)
-{
 
-int i, j;
-	for (i = 1; i <= 10; i++)
+void print_most_numbers(void)
+{
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (j = 0; j < 15; j++)
-		{
-			if (j >= 10)
-			_putchar('1');
-			_putchar(j % 10 + '0');
-		}
-			_putchar('\n');
-		}
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
+	}
+	_putchar('\n');
 }
