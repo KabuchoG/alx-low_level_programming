@@ -13,7 +13,6 @@ void more_numbers(void)
 	{
 	_putchar(j);
 	}
-	_putchar(i);
 	_putchar('\n');
 	}
 }
