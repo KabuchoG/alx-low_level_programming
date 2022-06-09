@@ -22,4 +22,3 @@ int main(void)
 
 	return (0);
 }
->>>>>>> 66bd20caeebeb16b76670dd058f3805ae158725d
