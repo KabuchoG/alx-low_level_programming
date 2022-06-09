@@ -11,11 +11,10 @@ int main(void)
 int i;
 
 printf("Infinite loop incoming :(\n");
-
+/* causing the infinite loop */
 i = 0;
 while (i < 10)
 {
-/* block causing the infinite loop */
 putchar(i);
 }
 
