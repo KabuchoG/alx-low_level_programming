@@ -6,9 +6,9 @@
  */
 void puts_half(char *str)
 {
-	int i = 0, len = 0, j;
+int i = 0, len = 0, j;
 
-	while (str[i++])
+while (str[i++])
 		len++;
 
 	if ((len % 2) == 0)
