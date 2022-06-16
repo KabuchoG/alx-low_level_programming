@@ -1,6 +1,4 @@
-#include "main.h"
-#include <ctype.h>
-#include <string.h>
+#include "main"
 /**
  * string_toupper - converts lower case elements of a string to upper case
  *
@@ -8,12 +6,13 @@
  */
 char *string_toupper(char *n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < sizeof(n); i++)
+	while (*(n + i != '\0'))
 {
-	if (n[i] == 'a' || n[i] <= 'z')
-		_putchar(toupper(n[i]));
+	if ((*(n + i) >= 97) && (*(n + i) <= 122))
+	*(n + i) = *(n + i) - 32;
+	i++;
 }
 return (n);
 }
