@@ -14,7 +14,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		cycle++;
 	}
-
 	while (cycle2 < n)
 	{
 		*(dest + cycle) = *(src + cycle2);

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - converts lower case elements of a string to upper case
- * @n: the array string
+ * @n: the array string.
  * Return: a pointer to the first element of the string
  */
 char *string_toupper(char *n)
