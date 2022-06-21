@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strspn - counts the length of a prefix
  * @s: the main atring
