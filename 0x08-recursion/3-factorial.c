@@ -4,7 +4,7 @@
  * @n: incoming number
  * Return: integer
  */
-int factorial(int n);
+int factorial(int n)
 {
 if (n < 0)
 {
@@ -16,7 +16,7 @@ if (n == 0)
 }
 else
 {
-return (n * factorial(n-1));
+return (n * factorial(n - 1));
 }
 return (0);
 }
