@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+int atoi(char *str);
 /**
  * main - prints the peoduct of two numbers
  * @argc: number of arguments
