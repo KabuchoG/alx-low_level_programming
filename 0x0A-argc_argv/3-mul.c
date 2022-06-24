@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 /**
  * main - prints the peoduct of two numbers
  * @argc: number of arguments
@@ -21,21 +21,4 @@ int main(int argc, char *argv[])
 	return (1);
 	}
 	return (0);
-}
-/**
- * atoi - converts a string to an integer
- * @str: string
- * Return: integer.
- */
-int atoi(char *str)
-{
-int res = 0;
-
-for (int i = 0; str[i] != '\0'; ++i)
-{
-	if (str[i] > '9' || str[i] < '0')
-	return (-1);
-	res = res * 10 + str[i] - '0';
-}
-return (res);
 }
