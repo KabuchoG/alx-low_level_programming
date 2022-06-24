@@ -5,9 +5,8 @@
  * @argv: the argumrnts.
  * Return: integer
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] _attribute_((unused)))
 {
 printf("%d\n", argc);
-(void)*argv;
 return (0);
 }
