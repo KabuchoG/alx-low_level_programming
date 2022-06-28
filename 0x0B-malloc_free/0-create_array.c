@@ -7,8 +7,10 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	c [0] = 'l';
-	size = sizeof(c[0]);
+	int *s;
+
+	s[0] = c;
+	size = sizeof(s[0]);
 	if (size == 0)
 	{
 		return (NULL);
@@ -17,5 +19,5 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	return (c);
+	return (s);
 }
