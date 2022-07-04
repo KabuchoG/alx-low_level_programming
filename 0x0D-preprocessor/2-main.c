@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-# define SOURCE 2-main.c
+#define SOURCE "2-main.c"
 /**
  * main - prints out the name pf the source 
  * 
