@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define SOURCE "2-main.c"
 /**
  * main - prints out the name pf the source 
  * 
@@ -7,6 +6,6 @@
  */
 int main(void)
 {
-printf("%s", source);
+printf("%s\n", __FILE__);
 return (0);
 }
