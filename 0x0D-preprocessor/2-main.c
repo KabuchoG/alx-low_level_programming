@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints out the name pf the source 
- * 
+ * main - prints out the name pf the source
  * Return: 0
  */
 int main(void)
