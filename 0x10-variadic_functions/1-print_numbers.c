@@ -9,13 +9,15 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	unsigned int i;
 	va_list pa;
 
 	va_start(pa, n);
 	for (i= 0; i < n; i++)
 	{
-		printf("%d%s ", va_arg(pa, int) !(*seperator == NULL));
+		printf("%d", va_arg(pa, int));
+		if (seperator != NULL)
+		printf("%s", separator);
 	}
 	va_end(pa);
 	printf("\n");
