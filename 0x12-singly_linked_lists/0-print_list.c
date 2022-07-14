@@ -8,14 +8,12 @@
  */
 size_t print_list(const list_t *h)
 {
-	list_t *ptr;
-	list_t *head = malloc(sizeof(list_t));
-	head = &h;
+	const list_t *ptr;
+	unsigned int i = 0;
 
-	ptr = head;
+	ptr = h;
 	while (ptr != NULL)
 	{
-		ptr->len = strlen(ptr->str);
 		if (ptr->str == NULL)
 			printf("[%u] (nil)\n", ptr->len);
 		else
@@ -23,6 +21,7 @@ size_t print_list(const list_t *h)
 		printf("[%u] %s\n", ptr->len, ptr->str);
 		}
 			ptr = ptr->next;
+			i++;
 	}
-return (0);
+return (i);
 }
