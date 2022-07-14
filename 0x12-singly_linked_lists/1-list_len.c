@@ -11,7 +11,7 @@ const list_t *ptr;
 unsigned int i;
 
 ptr = h;
-for (i = 0; ptr->next != NULL; i++)
+for (i = 0; ptr; i++)
 	ptr = ptr->next;
 return (i);
 }
