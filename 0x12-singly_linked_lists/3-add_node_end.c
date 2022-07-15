@@ -29,7 +29,7 @@ if (*head == NULL)
 }
 else
 {
-while (ptr != NULL)
+while (ptr->next != NULL)
 	ptr = ptr->next;
 ptr->next = new;
 return (new);
