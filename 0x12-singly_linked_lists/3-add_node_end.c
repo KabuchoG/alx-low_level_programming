@@ -25,6 +25,7 @@ ptr = *head;
 if (*head == NULL)
 {
 	*head = new;
+	return (new);
 }
 else
 {
