@@ -21,7 +21,7 @@ if (*head == NULL)
 else
 {
 ptr = *head;
-while (ptr)
+while (ptr != NULL)
 	ptr = ptr->next;
 ptr->next = new;
 return (new);
