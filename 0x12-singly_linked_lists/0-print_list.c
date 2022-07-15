@@ -14,7 +14,7 @@ unsigned int i = 0;
 ptr = h;
 while (ptr->next != NULL)
 {
-if (ptr->str == NULL)
+if (ptr)
 printf("[%u] (nil)\n", ptr->len);
 else
 {
