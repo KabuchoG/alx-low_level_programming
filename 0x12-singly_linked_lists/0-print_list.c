@@ -8,20 +8,20 @@
  */
 size_t print_list(const list_t *h)
 {
-	const list_t *ptr;
-	unsigned int i = 0;
+const list_t *ptr;
+unsigned int i = 0;
 
-	ptr = h;
-	while (ptr)
-	{
-		if (ptr->str == NULL)
-			printf("[%u] (nil)\n", ptr->len);
-		else
-		{
-		printf("[%u] %s\n", ptr->len, ptr->str);
-		}
-			ptr = ptr->next;
-			i++;
-	}
+ptr = h;
+while (ptr->next != NULL)
+{
+if (ptr->str == NULL)
+printf("[%u] (nil)\n", ptr->len);
+else
+{
+printf("[%u] %s\n", ptr->len, ptr->str);
+}
+ptr = ptr->next;
+i++;
+}
 return (i);
 }
