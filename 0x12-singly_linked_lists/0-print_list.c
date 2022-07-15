@@ -2,7 +2,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * print_listr - prints a list of elements in a struct list(linked)
+ * print_list - prints a list of elements in a struct list(linked)
  * @h: number of elements
  * Return: a value of type size_t
  */
