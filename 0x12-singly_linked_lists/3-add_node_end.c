@@ -19,10 +19,10 @@ new->str = strdup(str);
 if (new->str == NULL)
 	return (NULL);
 new->len = strlen(new->str);
-*head = ptr;
+ptr = *head;
 while (ptr)
 	ptr = ptr->next;
-ptr = new;
 new->next = NULL;
+ptr = new;
 return (ptr);
 }
