@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <string.h>
 #include "lists.h"
 /**
@@ -12,15 +13,16 @@ list_t *ptr;
 list_t *new = malloc(sizeof(list_t));
 
 if (new == NULL)
+	free(new);
 	return (NULL);
 new->str = strdup(str);
 new->len = strlen(new->str);
 new->next = NULL;
+ptr = *head;
 if (*head == NULL)
 	*head = new;
 else
 {
-ptr = *head;
 while (ptr != NULL)
 	ptr = ptr->next;
 ptr->next = new;
