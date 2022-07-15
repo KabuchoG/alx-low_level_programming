@@ -12,7 +12,7 @@ const list_t *ptr;
 unsigned int i = 0;
 
 ptr = h;
-while (ptr->next != NULL)
+while (ptr)
 {
 if (ptr)
 printf("[%u] (nil)\n", ptr->len);
