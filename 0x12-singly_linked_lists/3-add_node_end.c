@@ -16,6 +16,7 @@ return (NULL);
 new->str = strdup(str);
 if (new->str == NULL)
 free(new);
+return (NULL);
 new->len = strlen(new->str);
 new->next = NULL;
 ptr = *head;
@@ -24,7 +25,7 @@ if (*head == NULL)
 else
 {
 while (ptr != NULL)
-ptr = ptr->next;
+	ptr = ptr->next;
 ptr->next = new;
 return (new);
 }
