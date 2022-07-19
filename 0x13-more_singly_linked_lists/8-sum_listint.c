@@ -10,8 +10,6 @@ listint_t *ptr = head;
 int sum = 0;
 if (ptr == NULL)
 return (0);
-if (!ptr->n)
-return (0);
 while (ptr != NULL)
 {
 ptr = ptr->next;
