@@ -13,7 +13,7 @@ if (head == NULL)
 while (ptr != NULL)
 {
 ptr = ptr->next;
-free (head);
+free(head);
 head = ptr;
 }
 free(head);
