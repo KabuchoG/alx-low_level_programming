@@ -16,13 +16,6 @@ if (head == NULL)
 	return (0);
 }
 ptr = ptr->next;
-if (!n)
-{
-	free (head);
-	return (0);
-}
-else
-{
 free(head);
 return (n);
 }
