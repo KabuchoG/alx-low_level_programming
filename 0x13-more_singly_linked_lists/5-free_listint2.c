@@ -16,6 +16,5 @@ free(pos);
 pos = ptr;
 }
 free(pos);
-free(head);
-*head = NULL;
+head = NULL;
 }
