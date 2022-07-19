@@ -11,7 +11,10 @@ listint_t *ptr = *head;
 listint_t *new = malloc(sizeof(listint_t));
 
 if (new == NULL)
+{
 return (NULL);
+free(new);
+}
 new->n = n;
 new->next = NULL;
 while (ptr->next != NULL)
