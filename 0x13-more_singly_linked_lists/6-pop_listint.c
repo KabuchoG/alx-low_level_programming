@@ -19,4 +19,3 @@ ptr = ptr->next;
 free(head);
 return (n);
 }
-}
