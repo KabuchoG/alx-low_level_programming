@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct listintt_s - a linked list (self referencing structure)
+ * struct listint_s - a linked list (self referencing structure)
  * @n: an integer member
  * @next: a pointer to the next node, a link to the next node
  * Description: linked list node structure
