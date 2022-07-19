@@ -16,8 +16,7 @@ if (head == NULL)
 	*head = NULL;
 	return (0);
 }
-ptr = ptr->next;
-free(head);
-*head = ptr;
+*head = ptr->next;
+free(ptr);
 return (n);
 }
