@@ -17,7 +17,7 @@ return (NULL);
 }
 new->n = n;
 new->next = NULL;
-while (ptr != NULL)
+while (ptr->next != NULL)
 {
 ptr = ptr->next;
 }
