@@ -17,10 +17,10 @@ return (NULL);
 }
 new->n = n;
 new->next = NULL;
-while (ptr->next != NULL)
+while (ptr != NULL)
 {
 ptr = ptr->next;
 }
-ptr->next = new;
+ptr = new;
 return (new);
 }
