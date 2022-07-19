@@ -16,5 +16,5 @@ free(head);
 *head = ptr;
 }
 free(head);
-head = NULL;
+*head = NULL;
 }
