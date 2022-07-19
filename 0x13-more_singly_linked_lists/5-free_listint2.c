@@ -11,7 +11,7 @@ listint_t *ptr = *head;
 
 if (head == NULL)
 {
-free (head);
+free(head);
 head = NULL;
 }
 while (ptr != NULL)
