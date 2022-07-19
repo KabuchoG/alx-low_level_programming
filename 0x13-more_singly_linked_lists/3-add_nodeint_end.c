@@ -21,6 +21,6 @@ while (ptr != NULL)
 {
 ptr = ptr->next;
 }
-ptr = new;
+ptr->next = new;
 return (new);
 }
