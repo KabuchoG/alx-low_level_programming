@@ -16,5 +16,5 @@ while (ptr != NULL)
 ptr = ptr->next;
 i++;
 }
-return(i);
+return (i);
 }
