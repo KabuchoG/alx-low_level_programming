@@ -13,9 +13,11 @@ int n = ptr->n;
 if (head == NULL)
 {
 	free(head);
+	*head = NULL;
 	return (0);
 }
 ptr = ptr->next;
 free(head);
+*head = ptr;
 return (n);
 }
