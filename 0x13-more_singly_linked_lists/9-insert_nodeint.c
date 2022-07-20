@@ -14,16 +14,14 @@ listint_t *new = malloc(sizeof(listint_t));
 unsigned int i;
 
 new->n = n;
+if (*head == NULL)
+{
+	free(new);
+	return (NULL);
+}
 for (i = 0; i < idx; i++)
 {
 if (idx == 0)
-{
-if (ptr == NULL)
-{
-	*head = new;
-	return (new);
-}
-else
 {
 	new->next = *head;
 	*head = new;
@@ -33,6 +31,8 @@ else
 pos = ptr;
 ptr = ptr->next;
 if (ptr == NULL)
+{
+	free(new);
 	return (NULL);
 }
 new->next = ptr;
