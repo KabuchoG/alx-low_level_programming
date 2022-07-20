@@ -13,6 +13,11 @@ listint_t *new = malloc(sizeof(listint_t));
 listint_t *pos = ptr;
 unsigned int i;
 
+if (new == NULL)
+{
+	free(new);
+	return (NULL);
+}
 new->n = n;
 if (*head == NULL)
 {
