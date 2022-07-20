@@ -34,8 +34,8 @@ if (ptr == NULL)
 	free(new);
 	return (NULL);
 }
+}
 new->next = ptr;
 pos->next = new;
 return (new);
-}
 }
