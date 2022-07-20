@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * sum_listint
+ * sum_listint: sums the dara in all the nodes of the list
  * @head: pointer to the first node of the list
  * Return: the sum of the node data
  */
