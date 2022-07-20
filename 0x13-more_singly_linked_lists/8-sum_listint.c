@@ -11,8 +11,8 @@ int sum = 0;
 
 while (ptr != NULL)
 {
-sum += ptr->n;
-ptr = ptr->next;
+	sum += ptr->n;
+	ptr = ptr->next;
 }
 return (sum);
 }
