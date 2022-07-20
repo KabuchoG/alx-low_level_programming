@@ -13,6 +13,7 @@ listint_t *pos = ptr;
 listint_t *new = malloc(sizeof(listint_t));
 unsigned int i;
 
+new->n = n;
 for (i = 0; i < idx; i++)
 {
 if (idx == 0)
