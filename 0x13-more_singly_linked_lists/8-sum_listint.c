@@ -14,5 +14,6 @@ while (ptr != NULL)
 	sum += ptr->n;
 	ptr = ptr->next;
 }
+free(ptr);
 return (sum);
 }
