@@ -20,13 +20,5 @@ ptr = ptr->next;
 if (ptr == NULL)
 	return (NULL);
 }
-ptr = ptr->next;
-if (ptr == NULL)
-{
-return (NULL);
-}
-else
-{
 return (ptr);
-}
 }
