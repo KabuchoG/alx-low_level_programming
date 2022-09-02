@@ -11,7 +11,7 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	int i = 0;
 	const dlistint_t *ptr = h;
-	if (h == NULL)
+	if (ptr == NULL)
 		return (i);
 	while (ptr->prev != NULL)
 		ptr = ptr->prev;
