@@ -1,0 +1,6 @@
+#!/bin/bash
+ls
+ls -l
+ls -la
+echo "finally done"
+
